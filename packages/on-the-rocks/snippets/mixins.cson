@@ -1,0 +1,187 @@
+".source.scss":
+    "animation":
+        "prefix": "animation"
+        "body": "@include animation(${1:fadeIn 2s ease});"
+    "animation delay":
+        "prefix": "animation-delay"
+        "body": "@include animation-delay(${1:2s});"
+    "animation direction":
+        "prefix": "animation-direction"
+        "body": "@include animation-direction(${1:alternate-reverse});"
+    "animation duration":
+        "prefix": "animation-duration"
+        "body": "@include animation-duration(${1:2s});"
+    "animation fill mode":
+        "prefix": "animation-fill-mode"
+        "body": "@include animation-fill-mode(${1:backwards});"
+    "animation iteration count":
+        "prefix": "animation-iteration-count"
+        "body": "@include animation-iteration-count(${1:infinite});"
+    "animation name":
+        "prefix": "animation-name"
+        "body": "@include animation-name(${1:scale, slide});"
+    "animation play state":
+        "prefix": "animation-play-state"
+        "body": "@include animation-play-state(${1:paused});"
+    "animation timing function":
+        "prefix": "animation-timing-function"
+        "body": "@include animation-timing-function(${1:ease});"
+    "appearance":
+        "prefix": "appearance"
+        "body": "@include appearance(${1:none});"
+    "backface visibility":
+        "prefix": "backface-visibility"
+        "body": "@include backface-visibility(${1:visible});"
+    "background":
+        "prefix": "background"
+        "body": "@include background(${1:linear-gradient(red, green) left repeat});"
+    "background image":
+        "prefix": "background-image"
+        "body": "@include background-image(${1:url('/images/a.png'), linear-gradient(white 0, yellow 50%, transparent 50%)});"
+    "border image":
+        "prefix": "border-image"
+        "body": "@include border-image(url('${1:img/border-png}') ${2:27 repeat}));"
+    "calc":
+        "prefix":"calc"
+        "body":"@include calc(${1:width, '100% - 80px'});"
+    "columns":
+        "prefix": "columns"
+        "body": "@include columns(${1:12 8em});"
+    "column count":
+        "prefix": "column-count"
+        "body": "@include column-count($1);"
+    "column fill":
+        "prefix": "column-fill"
+        "body": "@include column-fill($1);"
+    "column gap":
+        "prefix": "column-gap"
+        "body": "@include column-gap($1);"
+    "column rule":
+        "prefix": "column-rule"
+        "body": "@include column-rule($1);"
+    "column rule color":
+        "prefix": "column-rule-color"
+        "body": "@include column-rule-color($1);"
+    "column rule style":
+        "prefix": "column-rule-style"
+        "body": "@include column-rule-style($1);"
+    "column rule width":
+        "prefix": "column-rule-width"
+        "body": "@include column-rule-width($1);"
+    "column span":
+        "prefix": "column-span"
+        "body": "@include column-span($1);"
+    "column width":
+        "prefix": "column-width"
+        "body": "@include column-width($1);"
+    "filter":
+        "prefix":"filter"
+        "body":"@include filter(${1:grayscale(50%)});"
+    "flex box":
+        "prefix": "flex-box"
+        "body": "@include flex-box($1);"
+    "box":
+        "prefix": "box"
+        "body": "@include box($1);"
+    "box align":
+        "prefix": "box-align"
+        "body": "@include box-align(${1:start | end | center | baseline | stretch});"
+    "box direction":
+        "prefix": "box-direction"
+        "body": "@include box-direction($1);"
+    "box flex":
+        "prefix": "box-flex"
+        "body": "@include box-flex($1);"
+    "box flex group":
+        "prefix": "box-flex-group"
+        "body": "@include box-felx-group($1);"
+    "box lines":
+        "prefix": "box-lines"
+        "body": "@include box-lines($1);"
+    "box ordinal group":
+        "prefix": "box-ordinal-group"
+        "body": "@include box-ordinal-group($1);"
+    "box orient":
+        "prefix": "box-orient"
+        "body": "@include box-orient($1);"
+    "box pack":
+        "prefix": "box-pack"
+        "body": "@include box-pack($1);"
+    "display box":
+        "prefix": "display-box"
+        "body": "@include display-box($1);"
+    "font face":
+        "prefix": "font-face"
+        "body": "@include font-face(${1:'source-sans-pro', '/fonts/source-sans-pro/source-sans-pro-italic', normal, italic});"
+    "font feature settings":
+        "prefix": "font-feature-settings"
+        "body": "@include font-feature-settings(${1:'liga', 'pnum', 'kern' false});"
+    "hidpi":
+        "prefix": "hidpi"
+        "body": "@include hidpi(${1:1.5}) {$2};"
+    "hyphens":
+        "prefix": "hyphens"
+        "body": "@include hyphens(${1:manual});"
+    "image rendering":
+        "prefix": "image-rendering"
+        "body": "@include image-rendering(${1:optimizeSpeed});"
+    "keyframes":
+        "prefix": "keyframes"
+        "body": "@include keyframes(${1:fadeIn}) {$2};"
+    "linear gradient":
+        "prefix": "linear-gradient"
+        "body": "@include linear-gradient(${1:#1e5799, #2989d8});"
+    "perspective":
+        "prefix": "perspective"
+        "body": "@include perspective(${1:300px});"
+    "perspective origin":
+        "prefix": "perspective-origin"
+        "body": "@include perspective-origin(${1:30% 30%});"
+    "placeholder":
+        "prefix": "placeholder"
+        "body": "@include placeholder {${1:color: red;}}"
+    "radial gradient":
+        "prefix": "radial-gradient"
+        "body": "@include radial-gradient(${1:#1e5799, #3dc3d1});"
+    "selection":
+        "prefix": "selection"
+        "body": "@include selection {${1}}"
+    "text decoration":
+        "prefix": "text-decoration"
+        "body": "@include text-decoration(${1:underline double rgb(124,213,224)});"
+    "text decoration line":
+        "prefix": "text-decoration-line"
+        "body": "@include text-decoration-line(${1:line-through});"
+    "text decoration style":
+        "prefix": "text-decoration-style"
+        "body": "@include text-decoration-style(${1:double});"
+    "text decoration color":
+        "prefix": "text-decoration-color"
+        "body": "@include text-decoration-color(${1:#e71d02});"
+    "transform":
+        "prefix": "transform"
+        "body": "@include transform(${1:translateY(50px)});"
+    "transform origin":
+        "prefix": "transform-origin"
+        "body": "@include transform-origin(${1:center top});"
+    "transform style":
+        "prefix": "transform-style"
+        "body": "@include transform-style(${1:preserve-3d});"
+    "transition":
+        "prefix": "transition"
+        "body": "@include transition(${1:all 0.15s ease-out 0s});"
+    "transition delay":
+        "prefix": "transition-delay"
+        "body": "@include transition-delay(${1:0.5s});"
+    "transition duration":
+        "prefix": "transition-duration"
+        "body": "@include transition-duration(${1:1.0s});"
+    "transition property":
+        "prefix": "transition-property"
+        "body": "@include transition-property(${1:transform});"
+    "transition timing function":
+        "prefix": "transition-timing-function"
+        "body": "@include transition-timing-function(${1:ease-in});"
+    "user select":
+        "prefix": "user-select"
+        "body": "@include user-select(${1:none});"

@@ -1,0 +1,15 @@
+packages: [
+  "angularjs"
+  "atom-beautify"
+  "atom-bourbon-snippets"
+  "atom-jade"
+  "atom-material-ui"
+  "emmet"
+  "language-vue"
+  "markdown-writer"
+  "on-the-rocks"
+  "package-sync"
+  "pigments"
+  "spacegray-atom-dark-syntax"
+  "turbo-javascript"
+]

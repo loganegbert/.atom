@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/t9/wwvfvfr108dfhgqspkcd3q8c0000gq/T/d-116823-17156-3mdxvt/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/t9/wwvfvfr108dfhgqspkcd3q8c0000gq/T/d-116823-17156-3mdxvt/package.tgz",
+        "spec": "/private/var/folders/t9/wwvfvfr108dfhgqspkcd3q8c0000gq/T/d-116823-17156-3mdxvt/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/t9/wwvfvfr108dfhgqspkcd3q8c0000gq/T/apm-install-dir-116823-17156-r64yh0"
+    ]
+  ],
+  "_from": "../d-116823-17156-3mdxvt/package.tgz",
+  "_id": "on-the-rocks@2.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/on-the-rocks",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/t9/wwvfvfr108dfhgqspkcd3q8c0000gq/T/d-116823-17156-3mdxvt/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/t9/wwvfvfr108dfhgqspkcd3q8c0000gq/T/d-116823-17156-3mdxvt/package.tgz",
+    "spec": "/private/var/folders/t9/wwvfvfr108dfhgqspkcd3q8c0000gq/T/d-116823-17156-3mdxvt/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-116823-17156-3mdxvt/package.tgz",
+  "_shasum": "368eab8dee90f53fed6d2fc63343f00a71d2fdc3",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/t9/wwvfvfr108dfhgqspkcd3q8c0000gq/T/d-116823-17156-3mdxvt/package.tgz",
+  "_where": "/private/var/folders/t9/wwvfvfr108dfhgqspkcd3q8c0000gq/T/apm-install-dir-116823-17156-r64yh0",
+  "bugs": {
+    "url": "https://github.com/Harry-Harrison/on-the-rocks/issues"
+  },
+  "dependencies": {},
+  "description": "Bourbon & Neat Snippets",
+  "devDependencies": {},
+  "engines": {
+    "atom": "*"
+  },
+  "homepage": "https://github.com/Harry-Harrison/on-the-rocks#readme",
+  "keywords": [
+    "neat",
+    "bourbon",
+    "neat.io",
+    "bourbon.io",
+    "scss",
+    "mixin"
+  ],
+  "license": "MIT",
+  "name": "on-the-rocks",
+  "optionalDependencies": {},
+  "readme": "# On The Rocks\nA snippet library that adds every add-on, every function and every mixin for both Bourbon & Neat to [Atom](http://atom.io/).\n\nThanks to [thoughtbot](http://thoughtbot.com/) for making [Bourbon](http://bourbon.io/) & [Neat](http://neat.bourbon.io/) to begin with!\n\n## How to use\nJust write the prefix and hit `[tab]`. For example, `animation[tab]` will render the following:\n```css\n@include animation(fadeIn .25s ease-in-out);\n```\nIf using Emmet `[tab]` may be replaced with `[return]`.\n\n## Versions\nBourbon v4.2.6  \nNeat v1.7.2\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harry-Harrison/on-the-rocks.git"
+  },
+  "version": "2.1.0"
+}

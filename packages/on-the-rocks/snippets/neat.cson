@@ -1,0 +1,44 @@
+".source.scss":
+    "direction context":
+        "prefix": "direction-context"
+        "body": "@include direction-context(${1:left-to-right}) {${2}}"
+    "display context":
+        "prefix": "display-context"
+        "body": "@include display-context(${1:block}) {${2}}"
+    "fill parent":
+        "prefix": "fill-parent"
+        "body": "@include fill-parent;"
+    "media query":
+        "prefix": "media"
+        "body": "@include media(${1});"
+    "omega":
+        "prefix": "omega"
+        "body": "@include omega(${1:4n});"
+    "outer container":
+        "prefix": "outer-container"
+        "body": "@include outer-container(${1:100%});"
+    "pad":
+        "prefix": "pad"
+        "body": "@include pad(${1:flex-gutter()});"
+    "row":
+        "prefix": "row"
+        "body": "@include row(${1:block}${2:, $default-layout-direction});"
+    "shift":
+        "prefix": "shift"
+        "body": "@include shift(${1:1});"
+    "span columns":
+        "prefix": "span-columns"
+        "body": "@include span-columns(${1:1}${2:, block});"
+    "reset display":
+        "prefix": "reset-display"
+        "body": "@include reset-display;"
+    "reset layout direction":
+        "prefix": "reset-layout-direction"
+        "body": "@include reset-layout-direction;"
+    "reset all":
+        "prefix": "reset-all"
+        "body": "@include reset-all"
+
+    "new breakpoint":
+        "prefix": "breakpoint"
+        "body": "$breakpoint: new-breakpoint(${1:min-width 320px max-width 480px}${2: $grid-columns});"

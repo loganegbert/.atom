@@ -1,0 +1,33 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "b581e0ea-263f-45eb-a42d-e131e82bcc03"
+  core:
+    disabledPackages: [
+      "on-the-rocks"
+      "emmet"
+      "language-vue"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "spacegray-atom-dark-syntax"
+    ]
+  editor:
+    fontFamily: "verdana"
+    fontSize: 16
+    scrollPastEnd: true
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "b611ccf1-2bbe-b2cc-0bab-3066796852da"
+  "markdown-writer":
+    fileExtension: ".md"
+    siteEngine: "jekyll"
+  pigments:
+    autocompleteSuggestionsFromValue: true
+    sassShadeAndTintImplementation: "bourbon"
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false

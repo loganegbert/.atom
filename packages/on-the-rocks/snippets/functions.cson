@@ -1,0 +1,16 @@
+".source.scss":
+    "modular scale":
+        "prefix": "modular-scale"
+        "body": "modular-scale(${1:$perfect-fourth})"
+    "pixels to ems":
+        "prefix":"pixels-to-ems"
+        "body":"em(${1:12}${2:, 24})"
+    "pixels to rems":
+        "prefix":"pixels-to-rems"
+        "body":"rem(${1:12})"
+    "tint":
+        "prefix": "tint"
+        "body": "tint(${1:red}, ${2:40%})"
+    "shade":
+        "prefix": "shade"
+        "body": "shade(${1:blue}, ${2:60%})"
